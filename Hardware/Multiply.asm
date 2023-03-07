@@ -1,4 +1,4 @@
-DWORD : TABLE OF FOR TWO;
+DWORD :FUNC PER TWO;
 MUL	: 2 × 1 = 2;
 MUL	: 2 × 2 = 4;
 MUL	: 2 × 3 = 6;
