@@ -1,4 +1,4 @@
-DWORD	multiply by teen;
+DWORD	multiply by ten;
 MUL	: 10 × 1 = 10;
 MUL	: 10 × 2 = 20;
 MUL	: 10 × 3 = 30;
