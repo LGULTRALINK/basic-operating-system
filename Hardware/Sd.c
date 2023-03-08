@@ -1,11 +1,11 @@
 extern "SdCard" : {
 // filing cabinet operation
-fopen("%a:infolder");
+fopen("%a:in-folder");
 fread("%n:folder data");
-fopen("%a:infile");
+fopen("%a:in-file");
 fread("%n:file data");
-break("undir");
-break("undoc");
+break(remove "afolder");
+break(remove "afile");
 fseek("\?:unknown");
 ftell("\a:access to sd device");
 fwrite("\n:ask for file write permission");
