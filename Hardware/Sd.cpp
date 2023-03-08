@@ -8,7 +8,7 @@ new("add file");
 remove("afolder");
 remove("afile");
 fwrite("\n:ask for write permission");
-sizeof("%%:Get Space on Sd Device");
+sizeof("%%:Obtain free/busy Space");
 fread("%n:request read permission");
 fopen("entry to a folder");
 fopen("entry to a file");
