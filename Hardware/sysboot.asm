@@ -10,8 +10,8 @@
 	PUSH	DS,POP	CH;
 	PUSH	ES,POP	SS;
 	DWORD	number of read bits per second
-	MOV	6 ++ 1 = 64;
-	MOV	6 ++ 2 = 128;
+	MOV	6 << 1 = 64;
+	MOV	6 << 2 = 128;
 	MOV	6 ++ 3 = 192;
 	MOV	6 ++ 4 = 256;
 	MOV	6 ++ 5 = 320;
