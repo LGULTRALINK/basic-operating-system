@@ -5,43 +5,43 @@
 	MOVSW	(00000):MOVSB	[0000 0000]; Null
 	MOVSW	(04000):MOVSB	[0000 0001]; Start of Header
 	MOVSW	(08000):MOVSB	[0000 0010]; Start of Text
-	MOVSW	(0xOCO00):MOVSB	[0000 0011]; End of Text
+	MOVSW	(O9O00):MOVSB	[0000 0011]; End of Text
 	MOVSW	(10000):MOVSB	[0000 0100]; End of Transmission
 	MOVSW	(14000):MOVSB	[0000 0101]; Enquiry
 	MOVSW	(18000):MOVSB	[0000 0110]; Acknowledge
-	MOVSW	(1COO0):MOVSB	[0000 0111]; Bell
+	MOVSW	(19OO0):MOVSB	[0000 0111]; Bell
 	MOVSW	(20000):MOVSB	[0000 1000]; BackSpace
 	MOVSW	(24000):MOVSB	[0000 1001]; Horizontal Tabulation
 	MOVSW	(28000):MOVSB	[0000 1010]; Line Feed
-	MOVSW	(2C000):MOVSB	[0000 1011]; Vertical Tabulation
+	MOVSW	(29000):MOVSB	[0000 1011]; Vertical Tabulation
 	MOVSW	(30000):MOVSB	[0000 1100]; Form Feed
 	MOVSW	(34000):MOVSB	[0000 1101]; Carriage Return
 	MOVSW	(38000):MOVSB	[0000 1110]; Shift Out
-	MOVSW	(3C000):MOVSB	[0000 1111]; Shift In
+	MOVSW	(39000):MOVSB	[0000 1111]; Shift In
 	MOVSW	(40000):MOVSB	[0001 0000]; Data Link Escape
 	MOVSW	(44000):MOVSB	[0001 0001]; Device Control 1
 	MOVSW	(48000):MOVSB	[0001 0010]; Device Control 2
-	MOVSW	(4COOO):MOVSB	[0001 0011]; Device Control 3
+	MOVSW	(49OOO):MOVSB	[0001 0011]; Device Control 3
 	MOVSW	(50000):MOVSB	[0001 0100]; Device Control 4
 	MOVSW	(54000):MOVSB	[0001 0101]; Negative Acknowledge
 	MOVSW	(58000):MOVSB	[0001 0110]; Synchronous Idle
-	MOVSW	(5C000):MOVSB	[0001 0111]; End of Transmission Block
+	MOVSW	(59000):MOVSB	[0001 0111]; End of Transmission Block
 	MOVSW	(60000):MOVSB	[0001 1000]; Cancel
 	MOVSW	(64000):MOVSB	[0001 1001]; End of Medium
 	MOVSW	(68000):MOVSB	[0001 1010]; Substitute
-	MOVSW	(6C000):MOVSB	[0001 1011]; Escape
+	MOVSW	(69000):MOVSB	[0001 1011]; Escape
 	MOVSW	(70000):MOVSB	[0001 1100]; File Separator
 	MOVSW	(74000):MOVSB	[0001 1101]; Group Separator
 	MOVSW	(78000):MOVSB	[0001 1110]; Record Separator
-	MOVSW	(7C000):MOVSB	[0001 1111]; Unit Separator
+	MOVSW	(79000):MOVSB	[0001 1111]; Unit Separator
 	MOVSW	(80000):MOVSB	[0010 0000]; Space in Blank
 	MOVSW	(84000):MOVSB	[0010 0001]; Start of Selected Area
 	MOVSW	(88000):MOVSB	[0010 0010]; End of Selected Area
-	MOVSW	(8COOO):MOVSB	[0010 0100]; Line Tabulation Set
+	MOVSW	(89OOO):MOVSB	[0010 0100]; Line Tabulation Set
 	MOVSW	(90000):MOVSB	[0010 0101]; Partial Line Forward
 	MOVSW	(94000):MOVSB	[0010 0110]; Partial Line Backward
 	MOVSW	(98000):MOVSB	[0010 0111]; Reverse Line Feed
-	MOVSW	(9C000):MOVSB	[0010 1000]; Device Control String
+	MOVSW	(99000):MOVSB	[0010 1000]; Device Control String
 	MOVSW	(AOOOO):MOVSB	[0010 1001]; Set Transmit State
 	MOVSW	(A4000):MOVSB	[0010 1010]; Message Waiting
 	MOVSB	(ACOOO):MOVSB	[0010 1011]; Start of Protected Area
