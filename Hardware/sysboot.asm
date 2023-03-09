@@ -1,5 +1,5 @@
 ;POWER-UP DISPLAY
-	CALL	IN IRET	0X0;switch(On)
+	CALL	IN 0000000H;switch(On)
 	PUSH	BP,POP	DH;
 	PUSH	AX,POP	SP;
 	PUSH	BX,POP	DL;
@@ -9,7 +9,7 @@
 	PUSH	DI,POP	AL;
 	PUSH	DS,POP	CH;
 	PUSH	ES,POP	SS;
-	DWORD	bit left,MOVS OUT;
+	DWORD	byte left,MOVS OUT;
 	MOV	6 << 1 = 64;
 	MOV	6 << 2 = 128;
 	MOV	6 << 3 = 192;
