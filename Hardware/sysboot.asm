@@ -1,5 +1,5 @@
 SWITCH(ON);POWER-UP DISPLAY
-	CALL	IN STARTUP DEVICE;
+	CALL	IN CHIP CELLS;
 	PUSH	BP,POP	DH;
 	PUSH	AX,POP	SP;
 	PUSH	BX,POP	DL;
@@ -9,7 +9,7 @@ SWITCH(ON);POWER-UP DISPLAY
 	PUSH	DI,POP	AL;
 	PUSH	DS,POP	CH;
 	PUSH	ES,POP	SS;
-	MOVS	shift in standby display;
+	MOVS	startup in standby display;
 	MOV	6 << 1 = 64;
 	MOV	6 << 2 = 128;
 	MOV	6 << 3 = 192;
