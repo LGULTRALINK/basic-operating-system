@@ -47,14 +47,14 @@
 	MOVSB	(2AH):MOVSB	[0010 1011]; Start of Protected Area
 	MOVSW	(2BH):MOVSB	[0010 1100]; End of Protected Area
 	MOVSW	(2CH):MOVSB	[0010 1101]; Operating System Command
-	MOVSW	(2DH):MOVSB	[0010 1110]; Monochrome
-	MOVSW	(2EH):MOVSB	[0010 1111]; Color/Graphics 
-	MOVSW	(2FH):MOVSB	[0011 0000]; 
-	MOVSW	(30H):MOVSB	[0011 0001];
-	MOVSW	(31H):MOVSB	[0011 0010];
-	MOVSW	(32H):MOVSB	[0011 0011];
-	MOVSB	(33H):MOVSB	[0011 0100];
-	MOVSW	(34H):MOVSB	[0011 0101];
+	MOVSW	(2DH):MOVSB	[0010 1110]; Device Power Managed
+	MOVSW	(2EH):MOVSB	[0010 1111]; Device Low Power
+	MOVSW	(2FH):MOVSB	[0011 0000]; Device Is turned Off
+	MOVSW	(30H):MOVSB	[0011 0001]; Wait time
+	MOVSW	(31H):MOVSB	[0011 0010]; Device Is turned On
+	MOVSW	(32H):MOVSB	[0011 0011]; 
+	MOVSB	(33H):MOVSB	[0011 0100]; 
+	MOVSW	(34H):MOVSB	[0011 0101]; 
 	MOVSW	(35H):MOVSB	[0011 0110];
 	MOVSW	(36H):MOVSB	[0011 0111];
 	MOVSW	(37H):MOVSB	[0011 1000];
@@ -66,6 +66,9 @@
 	MOVSW	(3DH):MOVSB	[0011 1110];
 	MOVSW	(3EH):MOVSB	[0011 1111];
 	LODSW	(3FH):MOVSB	[0100 0000];
+	CALL	[OUT ON SWITCH] + ENABLE * IRET INITIALIZE;
+#; Turning the on/off switch to on from off powers the system on. The system goes 
+through a reset and initialization process and loads the operating system.
 	CALL	[IN STANDBY] + ENTRY * TEST POWER-UP DISPLAY;
 	LODS	(2 << 1 = 4);
 	LODS	(2 << 2 = 8);
@@ -122,3 +125,5 @@
 	LODS	(12 << 8 = 32768);
 	LODS	(12 << 9 = 36864);
 	CALL	[IN SUSPEND] + EXIT * TEST POWER-DOWN DISPLAY;
+	CALL	[OUT OFF SWITCH] + DISABLE *  UNINITIALIZE;
+; Turning the on/off switch to off from any state puts the system in the Off state
