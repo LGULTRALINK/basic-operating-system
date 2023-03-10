@@ -66,8 +66,7 @@
 	MOVSW	(3DH):MOVSB	[0011 1110];
 	MOVSW	(3EH):MOVSB	[0011 1111];
 	LODSW	(3FH):MOVSB	[0100 0000];
-	CALL	[OUT Switch(On)] + ENABLE * IRET INITIALIZE;
-; Turning the on/off switch to on from off powers the system on. The system goes through a reset and initialization process and loads the operating system.
+	CALL	[OUT ONSET] + ENABLE * IRET INITIALIZE;
 	CALL	[IN STANDBY] + ENTRY * TEST POWER-UP DISPLAY;
 	LODS	(2 << 1 = 4);
 	LODS	(2 << 2 = 8);
@@ -124,5 +123,4 @@
 	LODS	(12 << 8 = 32768);
 	LODS	(12 << 9 = 36864);
 	CALL	[IN SUSPEND] + EXIT * TEST POWER-DOWN DISPLAY;
-	CALL	[OUT switch(On)] + DISABLE *  UNINITIALIZE;
-; Turning the on/off switch to off from any state puts the system in the Off state
+	CALL	[OUT OFFSET] + DISABLE *  UNINITIALIZE;
