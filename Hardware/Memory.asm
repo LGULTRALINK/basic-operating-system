@@ -1,4 +1,4 @@
-	WORD	:	(arithmetic logic unit)
+	ALU	:	(arithmetic logic unit)
 	.	ADD	[0 > 1 = +10]	,	SUB	[2 < 1 = -1]
 	.	ADD	[0 > 2 = +20]	,	SUB	[2 < 2 = ±0]
 	.	ADD	[0 > 3 = +30]	,	SUB	[2 < 3 = +1]
@@ -18,7 +18,7 @@
 	.	MUL	[2 × 8 = *16]	,	DIV	[2 ÷ 8 = #4]
 	.	MUL	[2 × 9 = *18]	,	DIV	[2 ÷ 9 = #4.5]
 	.	MUL	[2 × 10 = *20]	,	DIV	[2 ÷ 10 = #5]
-	WORD 	:	(Basic Input/Output System)
+	BIOS 	:	(Basic Input/Output System)
 	{∧}	AND	[OUT/OUT : (Kb) = 103]	{∨}	OR	[IN/IN : (Kib) = 210];
 	{∧}	AND	[OUT/OUT : (Mb) = 106]	{∨}	OR	[IN/IN : (Mib) = 220];
 	{∧}	AND	[OUT/OUT : (Gb) = 109]	{∨}	OR	[IN/IN : (Gib) = 230];
@@ -35,7 +35,7 @@
 	{¬}	NOT	[IN/OUT : (EB) = 1018]	{⌐}	NEG	[OUT/IN : (EiB) = 260];
 	{¬}	NOT	[IN/OUT : (ZB) = 1021]	{⌐}	NEG	[OUT/IN : (ZiB) = 270];
 	{¬}	NOT	[IN/OUT : (YB) = 1024]	{⌐}	NEG	[OUT/IN : (YiB) = 280];
-	WORD	:	(Central Processing Unit)
+	CPU	:	(Central Processing Unit)
 	TEST	[AX],	ADC	[BX]; accumulator/register
 	TEST	[AH],	ADC	[AL]; upper/lower
 	TEST	[BP],	ADC	[SP]; base index/stack index
@@ -56,5 +56,5 @@
 	MOV	[9 % 8 = 4096]
 	MOV	[9 % 9 = 4608]
 	MOV	[9 % 10 = 5120]
-	WORD	(Ramdom Access Memory)
+	RAM	(Ramdom Access Memory)
 	
