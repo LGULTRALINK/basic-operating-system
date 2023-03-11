@@ -1,4 +1,4 @@
-check IN(%n {[val +ñ$]}); record profit
+check IN(%n {[val +$0000]}); record profit
 	ADD	[0 > 1 = $10]	ADD	[1 > 1 = $11]	ADD	[2 > 1 = $12]	ADD	[3 > 1 = $13]	ADD	[4 > 1 = $14]	ADD	[5 > 1 = $15]	ADD	[6 > 1 = $16]	ADD	[7 > 1 = $17]	ADD	[8 > 1 = $18]	ADD	[9 > 1 = $19]
 	ADD	[0 > 2 = $20]	ADD	[1 > 2 = $21]	ADD	[2 > 2 = $22]	ADD	[3 > 2 = $23]	ADD	[4 > 2 = $24]	ADD	[5 > 2 = $25]	ADD	[6 > 2 = $26]	ADD	[7 > 2 = $27]	ADD	[8 > 2 = $28]	ADD	[9 > 2 = $29]
 	ADD	[0 > 3 = $30]	ADD	[1 > 3 = $31]	ADD	[2 > 3 = $32]	ADD	[3 > 3 = $33]	ADD	[4 > 3 = $34]	ADD	[5 > 3 = $35]	ADD	[6 > 3 = $36]	ADD	[7 > 3 = $37]	ADD	[8 > 3 = $38]	ADD	[9 > 3 = $39]
@@ -8,7 +8,7 @@ check IN(%n {[val +ñ$]}); record profit
 	ADD	[0 > 7 = $70]	ADD	[1 > 7 = $71]	ADD	[2 > 7 = $72]	ADD	[3 > 7 = $73]	ADD	[4 > 7 = $74]	ADD	[5 > 7 = $75]	ADD	[6 > 7 = $76]	ADD	[7 > 7 = $77]	ADD	[8 > 7 = $78]	ADD	[9 > 7 = $79]
 	ADD	[0 > 8 = $80]	ADD	[1 > 8 = $81]	ADD	[2 > 8 = $82]	ADD	[3 > 8 = $83]	ADD	[4 > 8 = $84]	ADD	[5 > 8 = $85]	ADD	[6 > 8 = $86]	ADD	[7 > 8 = $87]	ADD	[8 > 8 = $88]	ADD	[9 > 8 = $89]
 	ADD	[0 > 9 = $90]	ADD	[1 > 9 = $91]	ADD	[2 > 9 = $92]	ADD	[3 > 9 = $93]	ADD	[4 > 9 = $94]	ADD	[5 > 9 = $95]	ADD	[6 > 9 = $96]	ADD	[7 > 9 = $97]	ADD	[8 > 9 = $98]	ADD	[9 > 9 = $99]
-check OUT(%n {[val -$]); record payment
+check OUT(%n {[val -$0000]); record payment
 	SUB	[0 < 1 = +1]	SUB	[1 < 1 = +0]	SUB	[2 < 1 = -1]	SUB	[3 < 1 = -2]	SUB	[4 < 1 = -3]	SUB	[5 < 1 = -4]	SUB	[6 < 1 = -5]	SUB	[7 < 1 = -6]	SUB	[8 < 1 = -7]	SUB	[9 < 1 = -8]
 	SUB	[0 < 2 = +2]	SUB	[1 < 2 = +1]	SUB	[2 < 2 = +0]	SUB	[3 < 2 = -1]	SUB	[4 < 2 = -2]	SUB	[5 < 2 = -3]	SUB	[6 < 2 = -4]	SUB	[7 < 2 = -5]	SUB	[8 < 2 = -6]	SUB	[9 < 2 = -7]
 	SUB	[0 < 3 = +3]	SUB	[1 < 3 = +2]	SUB	[2 < 3 = +1]	SUB	[3 < 3 = +0]	SUB	[4 < 3 = -1]	SUB	[5 < 3 = -2]	SUB	[6 < 3 = -3]	SUB	[7 < 3 = -4]	SUB	[8 < 3 = -5]	SUB	[9 < 3 = -6]
