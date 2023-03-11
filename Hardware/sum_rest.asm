@@ -1,4 +1,4 @@
-	IN/OUT == val max[+$0]; sum of money
+	IN/OUT == [${amount}]; sum of money by values maximum 
 	add	[0 > 1 = $10]
 	add	[0 > 2 = $20]
 	add	[0 > 3 = $30]
@@ -9,7 +9,7 @@
 	add	[0 > 8 = $80]
 	add	[0 > 9 = $90]
 	add	[0 > 10 = $100]
-	OUT/IN val min[-$0]; rest of money
+	OUT/IN ==[±{}]; rest of money by values minimum
 	sub	[0 < 1 = +1]
 	sub	[0 < 2 = +2]
 	sub	[0 < 3 = +3]
