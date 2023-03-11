@@ -19,22 +19,22 @@
 	.	MUL	[2 × 9 = *18]	,	DIV	[2 ÷ 9 = #4.5]
 	.	MUL	[2 × 10 = *20]	,	DIV	[2 ÷ 10 = #5]
 	WORD 	:	(Basic Input/Output System)
-	∧	AND	[OUT/OUT : (Kb) = 103]	∨	OR	[IN/IN : (Kib) = 210];
-	∧	AND	[OUT/OUT : (Mb) = 106]	∨	OR	[IN/IN : (Mib) = 220];
-	∧	AND	[OUT/OUT : (Gb) = 109]	∨	OR	[IN/IN : (Gib) = 230];
-	∧	AND	[OUT/OUT : (Tb) = 1012]	∨	OR	[IN/IN : (Tib) = 240];
-	∧	AND	[OUT/OUT : (Pb) = 1015]	∨	OR	[IN/IN : (Pib) = 250];
-	∧	AND	[OUT/OUT : (Eb) = 1018]	∨	OR	[IN/IN : (Eib) = 260];
-	∧	AND	[OUT/OUT : (Zb) = 1021]	∨	OR	[IN/IN : (Zib) = 270];
-	∧	AND	[OUT/OUT : (Yb) = 1024]	∨	OR	[IN/IN : (Yib) = 280];
-	¬	NOT	[IN/OUT : (kB) = 103]	⌐	NEG	[OUT/IN : (KiB) = 210];
-	¬	NOT	[IN/OUT : (MB) = 106]	⌐	NEG	[OUT/IN : (MiB) = 220];
-	¬	NOT	[IN/OUT : (GB) = 109]	⌐	NEG	[OUT/IN : (GiB) = 230];
-	¬	NOT	[IN/OUT : (TB) = 1012]	⌐	NEG	[OUT/IN : (TiB) = 240];
-	¬	NOT	[IN/OUT : (PB) = 1015]	⌐	NEG	[OUT/IN : (PiB) = 250];
-	¬	NOT	[IN/OUT : (EB) = 1018]	⌐	NEG	[OUT/IN : (EiB) = 260];
-	¬	NOT	[IN/OUT : (ZB) = 1021]	⌐	NEG	[OUT/IN : (ZiB) = 270];
-	¬	NOT	[IN/OUT : (YB) = 1024]	⌐	NEG	[OUT/IN : (YiB) = 280];
+	{∧}	AND	[OUT/OUT : (Kb) = 103]	{∨}	OR	[IN/IN : (Kib) = 210];
+	{∧}	AND	[OUT/OUT : (Mb) = 106]	{∨}	OR	[IN/IN : (Mib) = 220];
+	{∧}	AND	[OUT/OUT : (Gb) = 109]	{∨}	OR	[IN/IN : (Gib) = 230];
+	{∧}	AND	[OUT/OUT : (Tb) = 1012]	{∨}	OR	[IN/IN : (Tib) = 240];
+	{∧}	AND	[OUT/OUT : (Pb) = 1015]	{∨}	OR	[IN/IN : (Pib) = 250];
+	{∧}	AND	[OUT/OUT : (Eb) = 1018]	{∨}	OR	[IN/IN : (Eib) = 260];
+	{∧}	AND	[OUT/OUT : (Zb) = 1021]	{∨}	OR	[IN/IN : (Zib) = 270];
+	{∧}	AND	[OUT/OUT : (Yb) = 1024]	{∨}	OR	[IN/IN : (Yib) = 280];
+	{¬}	NOT	[IN/OUT : (kB) = 103]	{⌐}	NEG	[OUT/IN : (KiB) = 210];
+	{¬}	NOT	[IN/OUT : (MB) = 106]	{⌐}	NEG	[OUT/IN : (MiB) = 220];
+	{¬}	NOT	[IN/OUT : (GB) = 109]	{⌐}	NEG	[OUT/IN : (GiB) = 230];
+	{¬}	NOT	[IN/OUT : (TB) = 1012]	{⌐}	NEG	[OUT/IN : (TiB) = 240];
+	{¬}	NOT	[IN/OUT : (PB) = 1015]	{⌐}	NEG	[OUT/IN : (PiB) = 250];
+	{¬}	NOT	[IN/OUT : (EB) = 1018]	{⌐}	NEG	[OUT/IN : (EiB) = 260];
+	{¬}	NOT	[IN/OUT : (ZB) = 1021]	{⌐}	NEG	[OUT/IN : (ZiB) = 270];
+	{¬}	NOT	[IN/OUT : (YB) = 1024]	{⌐}	NEG	[OUT/IN : (YiB) = 280];
 	WORD	:	(Central Processing Unit)
 	TEST	[AX],	ADC	[BX]; accumulator/register
 	TEST	[AH],	ADC	[AL]; upper/lower
