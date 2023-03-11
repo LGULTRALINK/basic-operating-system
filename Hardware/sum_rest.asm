@@ -1,4 +1,4 @@
-	IN/INT{$0+$1+}; sum of money
+	IN/OUT{$0)$1)$2)$3)$4)$5)$6)$7)$8)$9); sum of money
 	add	[0 > 1 = $10]
 	add	[0 > 2 = $20]
 	add	[0 > 3 = $30]
@@ -9,7 +9,7 @@
 	add	[0 > 8 = $80]
 	add	[0 > 9 = $90]
 	add	[0 > 10 = $100]
-	OUT/INT; rest of money
+	OUT/IN; rest of money
 	sub	[0 < 1 = +1]
 	sub	[0 < 2 = +2]
 	sub	[0 < 3 = +3]
