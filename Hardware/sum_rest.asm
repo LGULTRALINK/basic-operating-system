@@ -1,4 +1,4 @@
-	check out(val = $0); sum of money
+	out($0,$1,$2,$3,$4,$5,$6,$7,$8,$9); sum of money
 	add	[0 > 1 = $10]
 	add	[0 > 2 = $20]
 	add	[0 > 3 = $30]
@@ -9,7 +9,7 @@
 	add	[0 > 8 = $80]
 	add	[0 > 9 = $90]
 	add	[0 > 10 = $100]
-	check in(val = $0); rest of money
+	in($0,$1,$2,$3,$4,$5,$6,$7,$8,$9); rest of money
 	sub	[0 < 1 = +1]
 	sub	[0 < 2 = +2]
 	sub	[0 < 3 = +3]
