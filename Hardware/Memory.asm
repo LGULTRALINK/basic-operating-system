@@ -45,7 +45,7 @@
 	TEST	[SI],	ADC	[DI]; source index/destination index
 	TEST	[CH],	ADC	[IP]; source address/program index
 	TEST	[DH],	ADC	[DL]; data head/data load
-	WORD	:(Read Only Memory)
+	ROM	(Read Only Memory)
 	MOV	[9 % 1 = 512]
 	MOV	[9 % 2 = 1024]
 	MOV	[9 % 3 = 1536]
