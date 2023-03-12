@@ -1,4 +1,4 @@
-	MOV	(AX),	[EQU :0 > 1 = $10]	;	accumulator x
+	MOV	(AX),	[CPU : 0 > 1 = $10]	;	accumulator x
 	MOV	(BX),	[CPU:0 > 2 = $20]	;	base x
 	MOV	(CX),	[CPU:0 > 3 = $30]	;	counter x
 	MOV	(DX),	[CPU:0 > 4 = $40]	;	data x
