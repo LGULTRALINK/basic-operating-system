@@ -1,3 +1,17 @@
-	MOV	(AX),	[PUSH	AH	/	POP	AL]	;	accumulator
-	MOV	(BX),	[PUSH	BH	/	POP	BL]	;	base record
-	MOV	(CX),	[IRET	00	/	INT	09]	;	counter
+	MOV	(AX),	[CPU:0 > 1 = $10]	;	accumulator
+	MOV	(BX),	[CPU:0 > 2 = $20]	;	base record
+	MOV	(CX),	[CPU:0 > 3 = $30]	;	counter
+	MOV	(DX),	[CPU:0 > 4 = $40]	;	data
+	MOV	(CS),	[CPU:0 > 5 = $50]	;	code segment
+	MOV	(DS),	[CPU:0 > 6 = $60]	;	data segment
+	MOV	(ES),	[CPU:0 > 7 = $70]	;	extra segment
+	MOV	(SS),	[CPU:0 > 8 = $80]	;	stack segment
+	MOV	(IP),	[CPU:0 > 9 = $90]	;	program index
+	MOV	(SI),	[CPU:0 > 10 = $100]	;	souce index
+	MOV	(DI),	[CPU:0 > 11 = $110]	;	direction index
+	MOV	(SP),	[CPU:0 > 12 = $120]	;	stack index
+	MOV	(BP),	[CPU:0 > 13 = $130]	;	base index
+	MOV	(AH),	[CPU:0 > 14 = $140]	;	high accumulator
+	MOV	(AL),	[CPU:0 > 15 = $150]	;	low accumulator
+	MOV	(BH),	[CPU:0 > 16 = $160]	;	high base
+	MOV	(BL),	[CPU:0 > 17 = $170]	;	low base
