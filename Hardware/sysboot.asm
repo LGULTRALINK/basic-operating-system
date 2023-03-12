@@ -1,7 +1,7 @@
-	MOV	(AX),	[CPU:0 > 1 = $10]	;	accumulator
-	MOV	(BX),	[CPU:0 > 2 = $20]	;	base record
-	MOV	(CX),	[CPU:0 > 3 = $30]	;	counter
-	MOV	(DX),	[CPU:0 > 4 = $40]	;	data
+	MOV	(AX),	[CPU:0 > 1 = $10]	;	accumulator x
+	MOV	(BX),	[CPU:0 > 2 = $20]	;	base x
+	MOV	(CX),	[CPU:0 > 3 = $30]	;	counter x
+	MOV	(DX),	[CPU:0 > 4 = $40]	;	data x
 	MOV	(CS),	[CPU:0 > 5 = $50]	;	code segment
 	MOV	(DS),	[CPU:0 > 6 = $60]	;	data segment
 	MOV	(ES),	[CPU:0 > 7 = $70]	;	extra segment
