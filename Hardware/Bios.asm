@@ -121,6 +121,6 @@ IN = [ES] / OUT = [SS] TEST AND / OR
 IN = [SI] / OUT = [DI] TEST AND / OR
 IN = [BP] / OUT = [SP] TEST AND / OR
 NOT TEST
-OUT =[IP 0000x0] / OUT =[IP 0000x1] TEST XOR / NEG
+OUT =[IP END] / OUT =[IP START] TEST XOR / NEG
 DB "access data"
 DW "print data"
