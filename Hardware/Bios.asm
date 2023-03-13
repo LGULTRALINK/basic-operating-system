@@ -1,4 +1,4 @@
-BIOS:	Binay Input Output System	; silicon chipsets
+BIOS:	Binary Input Output System	; silicon chipsets
 ╔═══════════╗
 ║             ║
 ║  PUSH [BP]  ║ ; base index
