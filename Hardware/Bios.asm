@@ -1,7 +1,7 @@
 BIOS:	Binay Input Output System	; silicon chipsets
 ╔═══════════╗
 ║             ║
-║ MOVSB  [BP] ║ ; base index
+║  PUSH [BP]  ║ ; base index
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
