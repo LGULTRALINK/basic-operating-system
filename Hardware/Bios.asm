@@ -1,7 +1,7 @@
 BIOS:	Binay Input Output System	; silicon chipsets
 ╔═══════════╗
 ║             ║
-║ IN/OUT [BP] ║ ; base index
+║ MOVSB  [BP] ║ ; base index
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
@@ -124,3 +124,4 @@ BIOS:	Binay Input Output System	; silicon chipsets
 ╢ BYTE INT [0001 1111],MOV [31H]: Unit Separator            ╟
 ║ BYTE INT [0010 0000],MOV [32H]: Space                     ╟
 ╚══════════════════════════════════════════════════╝
+	IN/OUT: [BYTE = 00000000 / INT = 00H];
