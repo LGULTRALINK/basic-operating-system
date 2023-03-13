@@ -1,5 +1,5 @@
 	cpu	[in/out]; value greater than (? assign number)
-	equ	[0 = 0 > $00].
+	equ	[0 = 0 > $00], equ [0 = 10 > $100].
 	equ	[0 = 1 > $10].
 	equ	[0 = 2 > $20].
 	equ	[0 = 3 > $30].
