@@ -41,32 +41,32 @@ BIOS:	Binary Input Output System	; silicon chipsets
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  MOV [AX]   ║ ; access
+║  MOV [AX]   ║ ; access (? unknown)
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  MOV [BX]   ║ ; based
+║  MOV [BX]   ║ ; based (? unknown)
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  MOV [CX]   ║ ; code
+║  MOV [CX]   ║ ; code (? unknown)
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  MOV [DX]   ║ ; data
+║  MOV [DX]   ║ ; data (? unknown)
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  MOV [IP]   ║ ; program index
+║  MOV [IP]   ║ ; start of program index
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  MOV [EX]   ║ ; extra (? unknown)
+║  MOV [IP]   ║ ; end of program index
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
