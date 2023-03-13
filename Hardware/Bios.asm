@@ -112,10 +112,10 @@ BIOS:	Binary Input Output System	; silicon chipsets
 │ BYTE = 1101 │; Carriage Return
 │ BYTE = 1110 │; Shift Out
 │ BYTE = 1111 │; Shift In
-└──╥─────╥──┘ 
-╔══╩═════╩══╦══╦═════════╗
-║  OUT = NOT  ╠══╣  IN = AND ╟
-║   IN = NOT  ╠══╣ OUT = AND ╟
-║  OUT = IF   ╠══╣  IN = OR  ╟
-║   IN = IF   ╠══╣ OUT = OR  ╟
-╚═══════════╩══╩═════════╝
+└───────────┘ 
+; system inputs and outputs
+IN = [DX] / OUT = [CX] TEST NOT
+IN = [DX] / OUT = [CX] TEST AND
+IN = [DX] / OUT = [CX] TEST XOR
+IN = [DX] / OUT = [CX] TEST NEG
+IN = [AX] / OUT = [BX] TEST OR
