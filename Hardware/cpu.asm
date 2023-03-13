@@ -1,102 +1,22 @@
-	cpu	in/out; values greater than zero
-	equ	[0 > 0 = $00]; zero value
-	equ	[0 > 1 = $10]; value of ten
-	equ	[0 > 2 = $20]; value of twenty
-	equ	[0 > 3 = $30]; value of thirty
-	equ	[0 > 4 = $40]; value of forty
-	equ	[0 > 5 = $50]; value of fifty
-	equ	[0 > 6 = $60]; value of sixty
-	equ	[0 > 7 = $70]; value of seventy
-	equ	[0 > 8 = $80]; value of eighty
-	equ	[0 > 9 = $90]; value of ninety
-	equ	[0 > 10 = $100]; value of one hundred
-	equ	[0 > 11 = $110]; value of one hundred and ten
-	equ	[0 > 12 = $120]; value of one hundred and twenty
-	equ	[0 > 13 = $130]; value of one hundred and thirty
-	equ	[0 > 14 = $140]; value of one hundred and forty
-	equ	[0 > 15 = $150]; value of one hundred and fifty
-	equ	[0 > 16 = $160]; value of one hundred and sixty
-	equ	[0 > 17 = $170]; value of one hundred and seventy
-	equ	[0 > 18 = $180]; value of one hundred and eighty
-	equ	[0 > 19 = $190]; value of one hundred and ninety
-	equ	[0 > 20 = $200]; value of two hundred
-	equ	[0 > 21 = $210]; value of two hundred and ten
-	equ	[0 > 22 = $220];
-	equ	[0 > 23 = $230];
-	equ	[0 > 24 = $240];
-	equ	[0 > 25 = $250];
-	equ	[0 > 26 = $260];
-	equ	[0 > 27 = $270];
-	equ	[0 > 28 = $280];
-	equ	[0 > 29 = $290];
-	equ	[0 > 30 = $300];
-	equ	[0 > 31 = $310];
-	equ	[0 > 32 = $320];
-	equ	[0 > 33 = $330];
-	equ	[0 > 34 = $340];
-	equ	[0 > 35 = $350];
-	equ	[0 > 36 = $360];
-	equ	[0 > 37 = $370];
-	equ	[0 > 38 = $380];
-	equ	[0 > 39 = $390];
-	equ	[0 > 40 = $400];
-	equ	[0 > 41 = $410];
-	equ	[0 > 42 = $420];
-	equ	[0 > 43 = $430];
-	equ	[0 > 44 = $440];
-	equ	[0 > 45 = $450];
-	equ	[0 > 46 = $460];
-	equ	[0 > 47 = $470];
-	equ	[0 > 48 = $480];
-	equ	[0 > 49 = $490];
-	equ	[0 > 50 = $500];
-	equ	[0 > 51 = $510];
-	equ	[0 > 52 = $520];
-	equ	[0 > 53 = $530];
-	equ	[0 > 54 = $540];
-	equ	[0 > 55 = $550];
-	equ	[0 > 56 = $560];
-	equ	[0 > 57 = $570];
-	equ	[0 > 58 = $580];
-	equ	[0 > 59 = $590];
-	equ	[0 > 60 = $600];
-	equ	[0 > 61 = $610];
-	equ	[0 > 62 = $620];
-	equ	[0 > 63 = $630];
-	equ	[0 > 64 = $640];
-	equ	[0 > 65 = $650];
-	equ	[0 > 66 = $660];
-	equ	[0 > 67 = $670];
-	equ	[0 > 68 = $680];
-	equ	[0 > 69 = $690];
-	equ	[0 > 70 = $700];
-	equ	[0 > 71 = $710];
-	equ	[0 > 72 = $720];
-	equ	[0 > 73 = $730];
-	equ	[0 > 74 = $740];
-	equ	[0 > 75 = $750];
-	equ	[0 > 76 = $760];
-	equ	[0 > 77 = $770];
-	equ	[0 > 78 = $780];
-	equ	[0 > 79 = $790];
-	equ	[0 > 80 = $800];
-	equ	[0 > 81 = $810];
-	equ	[0 > 82 = $820];
-	equ	[0 > 83 = $830];
-	equ	[0 > 84 = $840];
-	equ	[0 > 85 = $850];
-	equ	[0 > 86 = $860];
-	equ	[0 > 87 = $870];
-	equ	[0 > 88 = $880];
-	equ	[0 > 89 = $890];
-	equ	[0 > 90 = $900];
-	equ	[0 > 91 = $910];
-	equ	[0 > 92 = $920];
-	equ	[0 > 93 = $930];
-	equ	[0 > 94 = $940];
-	equ	[0 > 95 = $950];
-	equ	[0 > 96 = $960];
-	equ	[0 > 97 = $970];
-	equ	[0 > 98 = $980];
-	equ	[0 > 99 = $990];
-	equ	[0 > 100 = $1000]; thousand value
+	cpu	[in/out]; value greater than (? assign number)
+	equ	[0 = 0 > $00].
+	equ	[0 = 1 > $10].
+	equ	[0 = 2 > $20].
+	equ	[0 = 3 > $30].
+	equ	[0 = 4 > $40].
+	equ	[0 = 5 > $50].
+	equ	[0 = 6 > $60].
+	equ	[0 = 7 > $70].
+	equ	[0 = 8 > $80].
+	equ	[0 = 9 > $90].
+	cpu	[out/in]; value smaller than (? assign number)
+	sub	[0 = 0 < -0],	sub	[1 = 0 < -1].
+	add	[0 = 1 < +1],	add	[1 = 1 < +0].
+	add	[0 = 2 < +2],	add	[1 = 2 < +1].
+	add	[0 = 3 < +3],	add	[1 = 3 < +2].
+	add	[0 = 4 < +4],	add	[1 = 4 < +3].
+	add	[0 = 5 < +5],	add	[1 = 5 < +4].
+	add	[0 = 6 < +6],	add	[1 = 6 < +5].
+	add	[0 = 7 < +7],	add	[1 = 7 < +6].
+	add	[0 = 8 < +8],	add	[1 = 8 < +7].
+	add	[0 = 9 < +9],	add	[1 = 9 < +8].
