@@ -113,7 +113,7 @@ BIOS:	Binary Input Output System	; silicon chipsets
 │ BYTE = 1110 │; Shift Out
 │ BYTE = 1111 │; Shift In
 └───────────┘ 
-IRET (PORTS); outputs, inputs
+IRET (PORTS); inputs, outputs
 IN = [AH] / OUT = [AL] TEST AND / OR
 IN = [BH] / OUT = [BL] TEST AND / OR
 IN = [CS] / OUT = [DS] TEST AND / OR
