@@ -120,5 +120,7 @@ IN = [CS] / OUT = [DS] TEST AND / OR
 IN = [ES] / OUT = [SS] TEST AND / OR
 IN = [SI] / OUT = [DI] TEST AND / OR
 IN = [BP] / OUT = [SP] TEST AND / OR
+NOT TEST
+OUT =[IP 0] / OUT =[IP 1] TEST XOR / NEG
 DB "access data"
 DW "print data"
