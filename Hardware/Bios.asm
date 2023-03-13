@@ -66,7 +66,7 @@ BIOS:	Binary Input Output System	; silicon chipsets
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  MOV [ID]   ║ ; identify device
+║  MOV [CI]   ║ ; code index
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
