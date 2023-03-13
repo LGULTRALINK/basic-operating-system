@@ -120,3 +120,5 @@ IN = [CS] / OUT = [DS] TEST AND / OR
 IN = [ES] / OUT = [SS] TEST AND / OR
 IN = [SI] / OUT = [DI] TEST AND / OR
 IN = [BP] / OUT = [SP] TEST AND / OR
+DB "verify state of physical components"
+DW "write information by text"
