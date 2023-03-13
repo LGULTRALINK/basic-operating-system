@@ -113,9 +113,10 @@ BIOS:	Binary Input Output System	; silicon chipsets
 │ BYTE = 1110 │; Shift Out
 │ BYTE = 1111 │; Shift In
 └───────────┘ 
-; system inputs and outputs
-IN = [DX] / OUT = [CX] TEST NOT
-IN = [DX] / OUT = [CX] TEST AND
-IN = [DX] / OUT = [CX] TEST XOR
-IN = [DX] / OUT = [CX] TEST NEG
-IN = [AX] / OUT = [BX] TEST OR
+IRET (PORTS); inputs / outputs
+IN = [AH] / OUT = [AL] TEST LODS
+IN = [BH] / OUT = [BL] TEST MOVS
+IN = [CS] / OUT = [DS] TEST CMPS
+IN = [ES] / OUT = [SS] TEST LODSB
+IN = [SI] / OUT = [DI] TEST MOVSB
+IN = [BP] / OUT = [SP] TEST CMPSB
