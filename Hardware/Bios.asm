@@ -1,72 +1,72 @@
 BIOS:	Binary Input Output System	; silicon chipsets
 ╔═══════════╗
 ║             ║
-║  PUSH [BP]  ║ ; base index
+║  MOV [BP]   ║ ; base index
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  PUSH [SP]  ║ ; stack index
+║  MOV [SP]   ║ ; stack index
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  PUSH [DI]  ║ ; destination index
+║  MOV [DI]   ║ ; destination index
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  PUSH [SI]  ║ ; source index
+║  MOV [SI]   ║ ; source index
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  PUSH [CS]  ║ ; code segment
+║  MOV [CS]   ║ ; code segment
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  PUSH [DS]  ║ ; data segment
+║  MOV [DS]   ║ ; data segment
 ║             ║
 ╚═══════════╝
 ╔═══════════╗
 ║             ║
-║  PUSH [ES]  ║ ; extra data segment
+║  MOV [ES]   ║ ; extra data segment
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  PUSH [SS]  ║ ; stack segment
+║  MOV [SS]   ║ ; stack segment
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  POP [AX]   ║ ; access
+║  MOV [AX]   ║ ; access
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  POP [BX]   ║ ; based
+║  MOV [BX]   ║ ; based
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  POP [CX]   ║ ; code
+║  MOV [CX]   ║ ; code
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  POP [DX]   ║ ; data
+║  MOV [DX]   ║ ; data
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
 ║             ║
-║  IRET [IP]  ║ ; program index
+║  MOV [IP]   ║ ; program index
 ║             ║
 ╚═══╦═════╬═╝
 ╔═══╩═════╬═╗
 ║             ║
-║  IRET [ID]  ║ ; identify device
+║  MOV [ID]   ║ ; identify device
 ║             ║
 ╚═════════╬═╝
 ╔═════════╬═╗
