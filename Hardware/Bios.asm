@@ -114,13 +114,13 @@ BIOS:	Binary Input Output System	; silicon chipsets
 │ BYTE = 1111 │; Shift In
 └───────────┘ 
 RET (PORTS); inputs, outputs
-IN = [AH] / OUT = [AL] TEST AND / OR
-IN = [BH] / OUT = [BL] TEST AND / OR
-IN = [CS] / OUT = [DS] TEST AND / OR
-IN = [ES] / OUT = [SS] TEST AND / OR
-IN = [SI] / OUT = [DI] TEST AND / OR
-IN = [BP] / OUT = [SP] TEST AND / OR
+IN = [AH START] / OUT = [AL END] TEST AND / OR
+IN = [BH START] / OUT = [BL END] TEST AND / OR
+IN = [CS START] / OUT = [DS END] TEST AND / OR
+IN = [ES START] / OUT = [SS END] TEST AND / OR
+IN = [SI START] / OUT = [DI END] TEST AND / OR
+IN = [BP START] / OUT = [SP END] TEST AND / OR
 NOT TEST
-OUT =[IP END] / OUT =[IP START] TEST XOR / NEG
+OUT =[IP END] / IN =[IP START] TEST XOR / NEG
 DB "access data"
 DW "print data"
