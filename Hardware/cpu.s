@@ -1,3 +1,4 @@
+; equivalencies in values
 	EQU	:	0 > 0 = $00
 	EQU	:	0 > 1 = $10
 	EQU	:	0 > 2 = $20
