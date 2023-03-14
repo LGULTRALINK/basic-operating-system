@@ -1,4 +1,4 @@
-        INT	[00H],	POP	'␀',	PUSH	"�";
+        INT	[00H],	POP	'␀',	PUSH	'�';
 	INT	[01H],	POP	'␁',	PUSH	'▲';
 	INT	[02H],	POP	'␂',	PUSH	'►';
 	INT	[03H],	POP	'␃',	PUSH	'◄';
