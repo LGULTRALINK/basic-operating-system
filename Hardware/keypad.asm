@@ -1,16 +1,10 @@
-	INT 0
-	INT 1
-	INT 2
-	INT 3
-	INT 4
-	INT 5
-	INT 6
-	INT 7
-	INT 8
-	INT 9
-	POP +
-	POP -
-	POP =
-	POP ×
-	POP ÷
-	POP %
+	INT [0]; zero
+	INT [1]; one
+	INT [2]; two
+	INT [3]; three
+	INT [4]; four
+	INT [5]; five
+	INT [6]; six
+	INT [7]; seven
+	INT [8]; eight
+	INT [9]; nine
