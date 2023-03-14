@@ -1,25 +1,16 @@
-	POP A	PUSH a;
-	POP B	PUSH b;
-	POP C	PUSH c;
-	POP D	PUSH d;
-	POP E	PUSH e;
-	POP F
-	POP G
-	POP H
-	POP I
-	POP J
-	POP K
-	POP L
-	POP M
-	POP O
-	POP P
-	POP Q
-	POP R
-	POP S
-	POP T
-	POP U
-	POP V
-	POP W
-	POP X
-	POP Y
-	POP Z
+	INT 0
+	INT 1
+	INT 2
+	INT 3
+	INT 4
+	INT 5
+	INT 6
+	INT 7
+	INT 8
+	INT 9
+	POP +
+	POP -
+	POP =
+	POP ×
+	POP ÷
+	POP %
