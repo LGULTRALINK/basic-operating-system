@@ -1,10 +1,10 @@
-	POP "A";
-	POP 'B',
-	POP 'C',
-	POP 'D',
-	POP 'E',
-	POP 'F',
-	POP 'G',
+	POP 'A';
+	POP 'B';
+	POP 'C';
+	POP 'D';
+	POP 'E';
+	POP 'F';
+	POP 'G';
 	POP 'H',
 	POP 'I',
 	POP 'J',
