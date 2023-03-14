@@ -1,9 +1,9 @@
 	CALL ["ON/OFF"]; Power-Up Display / Power-Down Display
 LEA 00H PUSH '␀'; null state
-LEA 01H PUSH '␁'; start from header
-LEA 02H PUSH '␂'; begin writing text
-LEA 03H PUSH '␃'; finish text writing
-LEA 04H PUSH '␄'; end of transmission
+LEA 01H PUSH '␁'; 
+LEA 02H PUSH '␂'; 
+LEA 03H PUSH '␃'; 
+LEA 04H PUSH '␄'; 
 LEA 05H PUSH '␅';
 LEA 06H PUSH '␆';
 LEA 07H PUSH '␇';
