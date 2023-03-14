@@ -1,39 +1,28 @@
 	CALL "ON/OFF"; Power-Up Display / Power-Down Display
-	PUSH OOH	POP '␀';
-	PUSH 01H	POP '␁';
-	PUSH 02H	POP '␂';
-	PUSH 03H	POP '␃';
-	PUSH 04H	POP '␄';
-	PUSH 05H	POP '␅';
-	PUSH 06H	POP '␆';
-	PUSH 07H	POP '␇';
-	PUSH 08H	POP '␈';
-	PUSH 09H	POP '␉';
-	PUSH 10H	POP '␊';
-	PUSH 11H	POP '␋';
-	PUSH 12H	POP '␌';
-	PUSH 13H	POP '␍';
-	PUSH 14H	POP '␎';
-	PUSH 15H	POP '␏';
-	PUSH 16H	POP '␐';
-	PUSH 17H	POP '␑';
-	PUSH 18H	POP '␒';
-	PUSH 19H	POP '␓';
-	PUSH 20H	POP '␔';
-	PUSH 21H	POP '␕';
-	PUSH 22H	POP '␖';
-	PUSH 23H	POP '␗';
-	PUSH 24H	POP '␘';
-	PUSH 25H	POP '␙';
-	PUSH 26H	POP '␚';
-	PUSH 27H	POP '␛';
-	PUSH 28H	POP '␜';
-	PUSH 29H	POP '␝';
-	PUSH 30H	POP '␞';
-	PUSH 31H	POP '␟';
-	PUSH 32H	POP '␡';
-	PUSH 33H	POP ' ';
-	PUSH 34H	POP '!';
-	PUSH 35H	POP '"';
-	PUSH 36H	POP '#';
-	PUSH 37H	POP '$';
+	CALL "ON/OFF"; Power-Up Display / Power-Down Display
+	PUSH !
+	PUSH " 
+	PUSH # 
+	PUSH $ 
+	PUSH % 
+	PUSH & 
+	PUSH ' 
+	PUSH ( 
+	PUSH ) 
+	PUSH * 
+	PUSH 
+	PUSH + 
+	PUSH , 
+	PUSH - 
+	PUSH . 
+	PUSH / 
+	PUSH 0 
+	PUSH 1 
+	PUSH 2 
+	PUSH 3 
+	PUSH 4 
+	PUSH 5 
+	PUSH 6 
+	PUSH 7 
+	PUSH 8 
+	PUSH 9 
