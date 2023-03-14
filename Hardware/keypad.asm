@@ -1,10 +1,15 @@
-	INT [0]; zero
-	INT [1]; one
-	INT [2]; two
-	INT [3]; three
-	INT [4]; four
-	INT [5]; five
-	INT [6]; six
-	INT [7]; seven
-	INT [8]; eight
-	INT [9]; nine
+	POP "ON/OFF"; Power-Up / Power-Down Display
+	PUSH NUL	POP '␀';
+	PUSH SOH	POP '␁';
+	PUSH STX	POP '␂';
+	PUSH ETX	POP '␃';
+	PUSH EOT	POP '␄';
+	PUSH ENQ	POP '␅';
+	PUSH ACK	POP '␆';
+	PUSH BEL	POP '␇';
+	PUSH BS	POP '␈';
+	PUSH HT	POP '␉';
+	PUSH LF	POP '␊';
+	PUSH VT	POP '␋';
+	PUSH FF	POP '␌';
+	PUSH CR	POP '␍';
