@@ -1,4 +1,4 @@
-	POP 'A',
+	POP "A";
 	POP 'B',
 	POP 'C',
 	POP 'D',
