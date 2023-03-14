@@ -1,4 +1,4 @@
-	POP "ON/OFF"; Power-Up / Power-Down Display
+	RET "ON/OFF"; Power-Up Display / Power-Down Display
 	PUSH NUL	POP '␀';
 	PUSH SOH	POP '␁';
 	PUSH STX	POP '␂';
