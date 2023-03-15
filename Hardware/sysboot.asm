@@ -1,5 +1,9 @@
-wrmsr = shl (0B0000h-0BFFFFh)
-movsw
-movsb
-lodsw
-lodsb
+do (% =0: 10t < eflags: 18t++) {
+wrmsr [eax]
+movsw [ecx]
+movsb [ebx]
+lodsw []
+lodsb []
+rdmsr [edx]
+}
+
