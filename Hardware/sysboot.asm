@@ -47,3 +47,13 @@ E820Present = TRUE;
  .
  .
  }
+short FAR (*entryPoint)(Function, IBUBuffer, IBUIndex, BiosSelector);
+short function; /* Pentium Pro Processor BIOS Upgrade Function 03h*/
+unsigned char FAR *IBUBuffer; /* Pointer to buffer to write BIOS Update Data */
+unsigned short IBUIndex /* Index of BIOS Update Record to Read */
+unsigned short BiosSelector; /* BIOS readable/writable selector */
+DW Segment/Selector 0, Limit of Segment/Selector 0
+DW Segment/Selector 1, Limit of Segment/Selector 1
+DW ... ...
+DW Segment/Selector n, Limit of Segment/Selector n
+DW NULL
