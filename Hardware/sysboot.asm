@@ -1,12 +1,12 @@
 do (eflags) {
-wrmsr [eax]
-movsw [ecx]
-movsb [ebx]
-lodsw [esp]
-lodsb [ebp]
-rdmsr [edx]
+wrmsr [eax][eah]
+movsw [ecx][eal]
+movsb [ebx][ebh]
+lodsw [esp][ebl]
+lodsb [ebp][]
+rdmsr [edx][]
 call "On switch"....
-ret [lod] "Power-Up Display successfully"
+ret [shl] "Power-Up Display successfully"
 ret [not] "Power-Up Display unsuccessfully"
 }
 
