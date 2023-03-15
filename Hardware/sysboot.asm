@@ -6,7 +6,8 @@ lodsw [esp], int [03H]
 lodsb [ebp], int [04H]
 rdmsr [edx], int [05H]
 call "On switch"....
-ret [shl] "Power-Up Display successfully"
-ret [not] "Power-Up Display unsuccessfully"
+iret "Standby Display"..
+call "Off switch"...
+iret "Suspend Display"..
 }
 
