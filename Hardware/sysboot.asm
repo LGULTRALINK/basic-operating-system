@@ -5,7 +5,7 @@ movsb [ebx], int [02H]
 lodsw [esp], int [03H]
 lodsb [ebp], int [04H]
 rdmsr [edx], int [05H]
-cmps [eip], int [06H]
+leahf [eip], int [06H]
 movs [eah], int [06H]
 lods [ebh], int [07H]
 call "On switch"...
