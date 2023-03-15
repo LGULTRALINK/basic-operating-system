@@ -1,9 +1,10 @@
-do (% =0: 10t < eflags: 18t++) {
+do (eflags) {
 wrmsr [eax]
 movsw [ecx]
 movsb [ebx]
-lodsw []
-lodsb []
+lodsw [esp]
+lodsb [ebp]
 rdmsr [edx]
+call "On switch"....
 }
 
